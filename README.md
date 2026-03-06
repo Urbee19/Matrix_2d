@@ -35,43 +35,7 @@ C[i][j] = Σ (A[i][k] * B[k][j])
 Matrix Transpose
 
 C[i][j] = A[j][i]
-Project Structure
-matrix-processor-verilog
 
-rtl/
- ├── matrix_processor.v
- ├── fsm_controller.v
- ├── matrix_add.v
- ├── matrix_sub.v
- ├── matrix_mult.v
- └── matrix_transpose.v
-
-testbench/
- └── tb_matrix_processor.v
-
-synthesis/
- └── synopsys_script.tcl
-Tools Used
-
-Verilog HDL
-
-ModelSim / VCS (Simulation)
-
-Synopsys Design Compiler (Synthesis)
-
-FPGA tools (Vivado / Quartus)
-
-Applications
-
-Matrix processors are commonly used in:
-
-Digital Signal Processing
-
-Image Processing
-
-Scientific Computing
-
-Machine Learning Accelerators
 
 Author
 
